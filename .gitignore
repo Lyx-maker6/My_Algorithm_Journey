@@ -1,0 +1,35 @@
+# 编译产物
+*.exe
+*.obj
+*.o
+*.out
+*.ilk
+*.pdb
+*.lib
+*.dll
+
+# 临时文件
+*.tmp
+*.temp
+*.log
+
+# 编辑器生成的文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统生成的文件
+Thumbs.db
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# 构建目录
+build/
+bin/
+obj/
