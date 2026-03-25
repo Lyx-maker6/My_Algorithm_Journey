@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-
+//大写
 int main()
 {
     string s;
@@ -12,8 +12,7 @@ int main()
         if(s[i] >= '1' && s[i] <= '9')
         {
             tp = s[i] - '0'; // Convert character to integer
-            cout<<s[i-1];
-            for(int j=2;j<tp;j++)
+            for(int j=1;j<tp;j++)
             {
                 cout<<s[i-1];
             }
@@ -21,8 +20,6 @@ int main()
         else{
             cout<<s[i];
         }
-        
-        
     }
     return 0;    
 }
