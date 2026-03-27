@@ -4,7 +4,6 @@ using namespace std;
 int arr[10];
 bool check(int n)
 {
-    
     while(n)
     {
         int tp = n % 10;
