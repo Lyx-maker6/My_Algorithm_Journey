@@ -22,6 +22,20 @@ int main()
   string s;
   cin>>s;
   for(auto c : s) word[c - 'a']++;
-  
+  int max=0;
+  for(int i = 0;i<26;i++)
+    if(word[i]>max) 
+        max=word[i];
+  for(int i = 0;i<26;i++)
+  {
+    if(max==word[i])
+    {
+        cout<<(char)(i+'a')<<endl;
+        cout<<max<<endl;
+        break;
+    }
+  }        
+
+
   return 0;
 }
