@@ -1,0 +1,1 @@
+{"name":"Local: gcd","url":"e:\\MyCode\\LuoGu_Code\\Code\\gcd.cpp","tests":[{"id":1775737277219,"input":"3\n2 6 12","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\MyCode\\LuoGu_Code\\Code\\gcd.cpp","group":"local","local":true}
